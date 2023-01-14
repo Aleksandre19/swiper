@@ -1,0 +1,35 @@
+/**** Slider ****/
+.slider-owerflow-hidden {
+    overflow: hidden;
+    position: relative;
+}
+
+.slides-container {
+    position: relative;
+    left: 0;
+    display: inline-flex;
+    overflow: hidden;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    cursor: grab;
+}
+
+.slide {
+    width: 100vw;
+    user-select: none;
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
+.grabbing .slide {
+    transform: scale(0.9);
+}

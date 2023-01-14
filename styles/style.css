@@ -1,0 +1,277 @@
+
+/* Mobile */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    color: #616161;
+}
+
+.logo {
+    text-align: center;
+    font-family: Lobster;
+    font-size: 78px;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #66d7fe;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #336c80;
+}
+
+.slide_images {
+    width: 100%;
+}
+
+.slide-img-title {
+    text-align: center;
+    line-height: 33px;
+    letter-spacing: 1px;
+    margin-top: 2.5rem;
+}
+
+#right {
+    float: right;
+}
+
+.top-and-bottom-block-bg {
+    height: 30px;
+}
+
+.gray-section-top-bg {
+    background-image: url('../images/general/gray-section-top-bg.png');
+}
+
+.gray-section {
+    background-color: #dcdcdc;
+}
+
+.section-wrapper {
+    width: 100%;
+}
+
+.titles {
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    line-height: 32px;
+    color: #6e6e6e;
+}
+
+.icons {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: -8px;
+    margin-right: 6px;
+    background-size: 40px auto;
+    -webkit-background-size: 40px auto;
+    -moz-background-size: 40px auto;
+    -ms-background-size: 40px auto;
+    -o-background-size: 40px auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* Small size icons */
+.sz-icons {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-size: 17px auto;
+    -webkit-background-size: 17px auto;
+    -moz-background-size: 17px auto;
+    -ms-background-size: 17px auto;
+    -o-background-size: 17px auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* Extra small icons */
+.xs-icons {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-size: 17px auto;
+    -webkit-background-size: 17px auto;
+    -moz-background-size: 17px auto;
+    -ms-background-size: 17px auto;
+    -o-background-size: 17px auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+/* Swipe icon */
+.swp-i {
+    width: 30px;
+    height: 33px;
+    background-size: 30px auto;
+    background-image: url('../images/icons/swipe-icon.png')
+}
+
+/* Slider left arrow */
+.sll-a {
+    background-image: url('../images/icons/slider-left-arrow.png');
+}
+
+/* Sliders arrows */
+.sll-a,
+.slr-a {
+    height: 31px;
+    height: 31px;
+    transition: background-image 0.3s ease-out;
+    -webkit-transition: background-image 0.3s ease-out;
+    -moz-transition: background-image 0.3s ease-out;
+    -ms-transition: background-image 0.3s ease-out;
+    -o-transition: background-image 0.3s ease-out;
+}
+
+/* Slider left arrow hover */
+.sll-a:hover {
+    background-image: url('../images/icons/slider-left-arrow-hover.png');
+}
+
+/* Slider left arrow */
+.slr-a {
+    background-image: url('../images/icons/slider-right-arrow.png');
+}
+
+/* Slider left arrow hover */
+.slr-a:hover {
+    background-image: url('../images/icons/slider-right-arrow-hover.png');
+}
+
+/* Small size icons */
+.sz-i {
+    width: 20px;
+    height: 28px;
+    background-size: 20px;
+    margin-bottom: -11px;
+}
+
+.gr-i {
+    color: #81c91e;
+}
+
+/* Down finger icon */
+.df-i {
+    background-image: url('../images/icons/down-finger.png');
+}
+
+/* Iphon icon */
+.li {
+    background-image: url('../images/icons/apple-logo.png');
+}
+
+
+/* Galaxy icon */
+.li-g {
+    background-image: url('../images/icons/samsung-galaxy.png');
+}
+
+.swipe-container {
+    text-align: right;
+}
+
+.title-devider {
+    width: 92%;
+    margin: 1rem auto;
+}
+
+.gray-section-bottom-bg {
+    background-image: url('../images/general/gray-section-bottom-bg.png');
+}
+
+.gray-section-top-bg,
+.gray-section-bottom-bg,
+.white-section-top-bg,
+.white-section-bottom-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mb-swipe-icon {
+    opacity: .4;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+/* Tablet */
+@media (min-width: 768px){
+
+    .top-and-bottom-block-bg {
+        height: 40px;
+    }
+
+    .swipe-container {
+        padding-right: 30px !important;
+    }
+
+    .title-devider {
+        width: 95%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .logo {
+        text-align: left;
+    }
+
+    .slogan {
+        text-align: left;
+    }
+
+    .top-and-bottom-block-bg {
+        height: 70px;
+    }
+
+    .section-wrapper {
+        width: 75%;
+        margin: auto;
+    }
+
+    .swipe-container {
+        padding-right: 0 !important;
+        opacity: .5;
+    }
+
+    .title-devider {
+        width: 100%;
+    }
+
+    .slider-arrows {
+        font-size: 60px;
+        color: #8c8c8c;
+        -webkit-transition: color 0.3s ease-in-out;
+        -moz-transition: color 0.3s ease-in-out;
+        -o-transition: color 0.3s ease-in-out;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .slider-arrows:hover {
+        color: #538212;
+    }
+
+    .gray-section-top-bg {
+        background-image: url('../images/general/lg-grey-section-top-bg.png');
+    }
+
+    .gray-section-bottom-bg {
+        background-image: url('../images/general/lg-grey-section-bottom-bg.png');
+    }
+}
